@@ -12,12 +12,13 @@ Certifique-se de ter o Node.js e o npm instalados em sua máquina. Clone o repos
 
 ## Docker
 
-```bash
+```
 docker-compose up -d
+```
 
 ## Banco de Dados
 
-```bash
+```
 CREATE TABLE `partner` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `isCnpj` tinyint(1) DEFAULT NULL,
@@ -37,14 +38,16 @@ CREATE TABLE `partner` (
   `terms` tinyint(1) DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=82 DEFAULT CHARSET=latin1;
+```
 
 ## API start
-
-```bash
+```
 npm install
+```
 
-```bash
+```b
 npm run start
+```
 
 
 
